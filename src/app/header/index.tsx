@@ -8,6 +8,7 @@ import Nav from './nav';
 
 export default function index() {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isActive, isSetActive] = useState(false);
 
     return (
